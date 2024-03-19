@@ -1,0 +1,101 @@
+body {
+    background: 'red';
+  }
+  
+  body {
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title{
+    width: 10rem;
+    background-color: orangered;
+    height: 1.5em;
+    color: rgb(31, 30, 30);
+    font: 1em sans-serif;
+   text-transform: uppercase;
+   border-radius: 10px;
+   text-align: center;
+   padding-top: 8px;
+   font-weight: bold;
+  
+  }
+  
+  .p1Names{
+    height: 1.5em;
+      text-transform: uppercase;
+      font: 1em sans-serif;
+      font-weight: bold;
+  }
+  
+  button{
+    background-color: rgb(247, 202, 186);
+    margin-top: 12px;
+    height: 2em;
+    width: 7em;
+    color: black;
+    font-weight: bold;
+    font: 1em sans-serif;
+    border-radius: 5px;
+  }
+  
+  
+  .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #p1 {
+    width:80px;
+    height:80px;
+  }
+  
+  .p1Choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #p1Health {
+    font-size: 50px;
+  }
+  
+  #p2{
+    width:80px;
+    height:80px;
+  }
+  
+  
+  .p2Choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #p2Health {
+    font-size: 50px;
+  }
+  
+  #result {
+    font-size: 50px
+    
+  }
+  
+  .resultContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:150px;
+    width: 300px;
+    
+  }
